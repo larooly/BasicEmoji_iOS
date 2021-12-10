@@ -16,6 +16,8 @@
 		5132426124D2B63300B9106E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5132426024D2B63300B9106E /* main.m */; };
 		5132426B24D2B63300B9106E /* TestEmoticonEditSpanTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5132426A24D2B63300B9106E /* TestEmoticonEditSpanTests.m */; };
 		5132427624D2B63300B9106E /* TestEmoticonEditSpanUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5132427524D2B63300B9106E /* TestEmoticonEditSpanUITests.m */; };
+		5140F570254BF80100985E59 /* an.gif in Resources */ = {isa = PBXBuildFile; fileRef = 5140F56F254BF80100985E59 /* an.gif */; };
+		514B79162547F0EB008210E1 /* pinky.png in Resources */ = {isa = PBXBuildFile; fileRef = 514B79152547F0EB008210E1 /* pinky.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,8 @@
 		5132427124D2B63300B9106E /* TestEmoticonEditSpanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestEmoticonEditSpanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5132427524D2B63300B9106E /* TestEmoticonEditSpanUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestEmoticonEditSpanUITests.m; sourceTree = "<group>"; };
 		5132427724D2B63300B9106E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5140F56F254BF80100985E59 /* an.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = an.gif; sourceTree = SOURCE_ROOT; };
+		514B79152547F0EB008210E1 /* pinky.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pinky.png; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +119,8 @@
 				5132425C24D2B63300B9106E /* LaunchScreen.storyboard */,
 				5132425F24D2B63300B9106E /* Info.plist */,
 				5132426024D2B63300B9106E /* main.m */,
+				5140F56F254BF80100985E59 /* an.gif */,
+				514B79152547F0EB008210E1 /* pinky.png */,
 			);
 			path = TestEmoticonEditSpan;
 			sourceTree = "<group>";
@@ -240,9 +246,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5140F570254BF80100985E59 /* an.gif in Resources */,
 				5132425E24D2B63300B9106E /* LaunchScreen.storyboard in Resources */,
 				5132425B24D2B63300B9106E /* Assets.xcassets in Resources */,
 				5132425924D2B63000B9106E /* Main.storyboard in Resources */,
+				514B79162547F0EB008210E1 /* pinky.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,6 +450,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4XL58DYFGP;
 				INFOPLIST_FILE = TestEmoticonEditSpan/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -459,6 +468,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4XL58DYFGP;
 				INFOPLIST_FILE = TestEmoticonEditSpan/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
