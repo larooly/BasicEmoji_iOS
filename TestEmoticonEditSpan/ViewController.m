@@ -64,7 +64,7 @@
 //    _show.text = _dpdl.text;
 //    _show.attributedText = _dpdl.attributedText;
     NSMutableString * k = [NSMutableString stringWithString:  _dpdl.text];
-    [k appendString:@"kdloksdoko"];
+    [k appendString:@"/이모티콘/"];
     _dpdl.text = k;
 }
 -(UIImage *)imageToimage:(UIImage *)image scaledTosize:(CGSize)newSize{
@@ -82,7 +82,7 @@
     NSDictionary *attrdict = [NSDictionary dictionaryWithObject:font forKey:NSFontAttributeName];
     NSMutableAttributedString *attributedString = [[NSMutableAttributedString alloc] initWithString:nowText attributes:attrdict];
     NSTextAttachment *textAttachment = [[NSTextAttachment alloc] init];
-    textAttachment.image =[self imageToimage:[UIImage imageNamed:@"an.gif"] scaledTosize:CGSizeMake(20,20)];
+    textAttachment.image =[self imageToimage:[UIImage imageNamed:@"pinky.png"] scaledTosize:CGSizeMake(20,20)];
     NSAttributedString *attrStringWithImage = [NSAttributedString attributedStringWithAttachment:textAttachment];
     NSAttributedString *replace = attrStringWithImage;// [[NSAttributedString alloc] initWithString:@"/ㅋㅋ/"];
     while ([attributedString.mutableString containsString:@"/ㅋㅋ/"]) {
